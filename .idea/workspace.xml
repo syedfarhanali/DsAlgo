@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="566a7296-8537-4371-8aad-dc2325ddcdc1" name="Default Changelist" comment="" />
+    <list default="true" id="566a7296-8537-4371-8aad-dc2325ddcdc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/ThreeNumberSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/TwoNumberSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,14 +20,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/DiskStacking.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/TwoNumberSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="9" selection-start-column="3" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/ThreeNumberSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="47" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -40,6 +67,9 @@
       <find>rows</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -55,6 +85,10 @@
         <option value="$PROJECT_DIR$/src/algoexpert/dynamicProgramming/KnapsackProblem.java" />
         <option value="$PROJECT_DIR$/src/util/Utils.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/dynamicProgramming/DiskStacking.java" />
+        <option value="$PROJECT_DIR$/src/TwoNumberSum.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/arrays/TwoNumberSum.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/arrays/ThreeNumberSum.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -62,6 +96,9 @@
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="827" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -77,17 +114,6 @@
               <item name="DsAlgo" type="b2602c69:ProjectViewProjectNode" />
               <item name="DsAlgo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DsAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DsAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DsAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DsAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -95,6 +121,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -111,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiskStacking">
+  <component name="RunManager" selected="Application.ThreeNumberSum">
     <configuration name="DiskStacking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algoexpert.dynamicProgramming.DiskStacking" />
       <module name="DsAlgo" />
@@ -138,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.dynamicProgramming.LongestCommonSubsequence" />
+    <configuration name="ThreeNumberSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.ThreeNumberSum" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.dynamicProgramming.*" />
+          <option name="PATTERN" value="algoexpert.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinNumberOfJumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.dynamicProgramming.MinNumberOfJumps" />
+    <configuration name="TwoNumberSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.TwoNumberSum" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.dynamicProgramming.*" />
+          <option name="PATTERN" value="algoexpert.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,19 +205,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LongestCommonSubsequence" />
-      <item itemvalue="Application.MinNumberOfJumps" />
       <item itemvalue="Application.WaterArea" />
       <item itemvalue="Application.KnapsackProblem" />
       <item itemvalue="Application.DiskStacking" />
+      <item itemvalue="Application.TwoNumberSum" />
+      <item itemvalue="Application.ThreeNumberSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeNumberSum" />
+        <item itemvalue="Application.TwoNumberSum" />
         <item itemvalue="Application.DiskStacking" />
         <item itemvalue="Application.KnapsackProblem" />
         <item itemvalue="Application.WaterArea" />
-        <item itemvalue="Application.MinNumberOfJumps" />
-        <item itemvalue="Application.LongestCommonSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +236,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.20243205" />
       <window_info id="Structure" order="1" sideWeight="0.5011876" side_tool="true" weight="0.20243205" />
@@ -292,6 +320,12 @@
           <line>70</line>
           <properties />
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/arrays/ThreeNumberSum.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -482,11 +516,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/DiskStacking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        <state relative-caret-position="820">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/TwoNumberSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="9" selection-start-column="3" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/ThreeNumberSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
