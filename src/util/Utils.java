@@ -3,6 +3,7 @@ package util;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class Utils {
@@ -41,6 +42,7 @@ public class Utils {
     }
 
 
-
-
+    public static void print(List<Integer> localMins) {
+        localMins.stream().forEach(System.out::println);
+    }
 }

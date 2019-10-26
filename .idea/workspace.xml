@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="566a7296-8537-4371-8aad-dc2325ddcdc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/SmallestDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/SubarraySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/MinimumRewards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Utils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,6 +26,19 @@
               <caret line="16" selection-start-line="9" selection-start-column="3" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+              <folding>
+                <element signature="e#1358#1359#0" expanded="true" />
+                <element signature="e#1382#1383#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,11 +77,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/SubarraySort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="37" />
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="746">
+              <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/MinimumRewards.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="656" column="18" selection-start-line="656" selection-start-column="18" selection-end-line="656" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -84,6 +140,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>rows</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/algoexpert/dynamicProgramming/MinNumberOfJumps.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/dynamicProgramming/WaterArea.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/dynamicProgramming/KnapsackProblem.java" />
-        <option value="$PROJECT_DIR$/src/util/Utils.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/dynamicProgramming/DiskStacking.java" />
         <option value="$PROJECT_DIR$/src/TwoNumberSum.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/arrays/TwoNumberSum.java" />
@@ -110,6 +166,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/algoexpert/arrays/SmallestDifference.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/arrays/SubarraySort.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java" />
+        <option value="$PROJECT_DIR$/src/util/Utils.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/arrays/MinimumRewards.java" />
       </list>
     </option>
   </component>
@@ -184,13 +243,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubarraySort">
-    <configuration name="DiskStacking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.dynamicProgramming.DiskStacking" />
+  <component name="RunManager" selected="Application.MinimumRewards">
+    <configuration name="LargestRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.LargestRange" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.dynamicProgramming.*" />
+          <option name="PATTERN" value="algoexpert.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumRewards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.MinimumRewards" />
+      <module name="DsAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoexpert.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,33 +309,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoNumberSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.TwoNumberSum" />
-      <module name="DsAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algoexpert.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.DiskStacking" />
-      <item itemvalue="Application.TwoNumberSum" />
       <item itemvalue="Application.ThreeNumberSum" />
       <item itemvalue="Application.SmallestDifference" />
       <item itemvalue="Application.SubarraySort" />
+      <item itemvalue="Application.LargestRange" />
+      <item itemvalue="Application.MinimumRewards" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumRewards" />
+        <item itemvalue="Application.LargestRange" />
         <item itemvalue="Application.SubarraySort" />
         <item itemvalue="Application.SmallestDifference" />
         <item itemvalue="Application.ThreeNumberSum" />
-        <item itemvalue="Application.TwoNumberSum" />
-        <item itemvalue="Application.DiskStacking" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +343,7 @@
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.20243205" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" weight="0.20243205" />
       <window_info id="Structure" order="1" sideWeight="0.5011876" side_tool="true" weight="0.20243205" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -293,8 +352,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.307483" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.27482992" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2857143" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.34557822" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -311,73 +370,101 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.20243205" />
+      <window_info id="Structure" order="1" sideWeight="0.5011876" side_tool="true" weight="0.20243205" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2857143" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.34557822" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.47210884" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3292517" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/MinNumberOfCoinsForChange.java</url>
-          <line>40</line>
+          <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
+          <line>57</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/MinNumberOfCoinsForChange.java</url>
-          <line>42</line>
+          <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
+          <line>60</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/MaxSumIncreasingSubsequence.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
+          <line>43</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/LongestCommonSubsequence.java</url>
-          <line>51</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/LongestCommonSubsequence.java</url>
-          <line>48</line>
+          <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/KnapsackProblem.java</url>
-          <line>58</line>
+          <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
+          <line>53</line>
           <properties />
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/DiskStacking.java</url>
-          <line>30</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/DiskStacking.java</url>
-          <line>70</line>
+          <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
+          <line>46</line>
           <properties />
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoexpert/arrays/ThreeNumberSum.java</url>
-          <line>32</line>
+          <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
+          <line>66</line>
           <properties />
-          <option name="timeStamp" value="35" />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/arrays/MinimumRewards.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>j-1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>maxNum</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>result</expression-string>
         <language-id>JAVA</language-id>
@@ -410,16 +497,6 @@
       </expression>
       <expression>
         <expression-string>row.add(j-1,lcs);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>array[i]` `</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>array[i]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -553,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/DiskStacking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="820">
@@ -610,7 +680,52 @@
     <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/SubarraySort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="37" />
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+          <folding>
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="656" column="18" selection-start-line="656" selection-start-column="18" selection-end-line="656" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/MinimumRewards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
