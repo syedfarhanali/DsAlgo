@@ -16,6 +16,8 @@ public class MinimumRewards {
     }
 
 
+    // Solution 3 is also present in algo expert need to implement.
+
 
     // Solution 1 : Calculate local minimums and increase towards left and right till local maximum is reached do this fir all local minimums
     public static int minRewards1(int[] scores) {
@@ -64,7 +66,7 @@ public class MinimumRewards {
     }
 
 
-    // Solution 3 loop through the array if next element is greater increase the reward if its smaller decrease the reward,
+    // Solution 2 loop through the array if next element is greater increase the reward if its smaller decrease the reward,
     // if while decreasing reward becomes zero then increase all previous rewards to be either current element +1 OR their current value
     // which ever is greater
 
@@ -102,5 +104,5 @@ public class MinimumRewards {
     }
 
 
-    
+
 }
