@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="566a7296-8537-4371-8aad-dc2325ddcdc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/ZigZagTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/bst/BSTConstruction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/bst/ClosestInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/bst/ValidateBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algoexpert/arrays/MinimumRewards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algoexpert/arrays/MinimumRewards.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,17 +19,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/ZigZagTraverse.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/ClosestInBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+            <state relative-caret-position="154">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#272#281#0" expanded="true" />
-                <element signature="e#369#378#0" expanded="true" />
-                <element signature="e#467#476#0" expanded="true" />
-                <element signature="e#565#574#0" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
+                <element signature="e#1491#1492#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/BSTConstruction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="64" column="9" selection-start-line="40" selection-start-column="7" selection-end-line="64" selection-end-column="9" />
+              <folding>
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/ValidateBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,6 +64,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -76,6 +102,10 @@
         <option value="$PROJECT_DIR$/src/util/Utils.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/arrays/MinimumRewards.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/arrays/ZigZagTraverse.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/arrays/ClosestInBST.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/bst/ClosestInBST.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/bst/BSTConstruction.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/bst/ValidateBST.java" />
       </list>
     </option>
   </component>
@@ -103,7 +133,7 @@
             <path>
               <item name="DsAlgo" type="58d84e3e:PackageViewProjectNode" />
               <item name="DsAlgo" type="616d4139:PackageViewModuleNode" />
-              <item name="algoexpert.arrays" type="1f31426a:PackageElementNode" />
+              <item name="algoexpert.bst" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -150,13 +180,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZigZagTraverse">
-    <configuration name="LargestRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.LargestRange" />
+  <component name="RunManager" selected="Application.ValidateBST">
+    <configuration name="BSTConstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.bst.BSTConstruction" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.arrays.*" />
+          <option name="PATTERN" value="algoexpert.bst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClosestInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.bst.ClosestInBST" />
+      <module name="DsAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoexpert.bst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,25 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.SmallestDifference" />
+    <configuration name="ValidateBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.bst.ValidateBST" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubarraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.SubarraySort" />
-      <module name="DsAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algoexpert.arrays.*" />
+          <option name="PATTERN" value="algoexpert.bst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +247,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SmallestDifference" />
-      <item itemvalue="Application.SubarraySort" />
-      <item itemvalue="Application.LargestRange" />
       <item itemvalue="Application.MinimumRewards" />
       <item itemvalue="Application.ZigZagTraverse" />
+      <item itemvalue="Application.ClosestInBST" />
+      <item itemvalue="Application.BSTConstruction" />
+      <item itemvalue="Application.ValidateBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidateBST" />
+        <item itemvalue="Application.BSTConstruction" />
+        <item itemvalue="Application.ClosestInBST" />
         <item itemvalue="Application.ZigZagTraverse" />
         <item itemvalue="Application.MinimumRewards" />
-        <item itemvalue="Application.LargestRange" />
-        <item itemvalue="Application.SubarraySort" />
-        <item itemvalue="Application.SmallestDifference" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +290,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2857143" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.34557822" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.41632652" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -387,11 +417,56 @@
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/bst/ClosestInBST.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/bst/ClosestInBST.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/bst/ClosestInBST.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/bst/BSTConstruction.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/bst/ValidateBST.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>currentTree.value &lt; target</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentTree.value</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentTree.value == target</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>j-1</expression-string>
         <language-id>JAVA</language-id>
@@ -419,21 +494,6 @@
       </expression>
       <expression>
         <expression-string>values[row-1][col]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>values[row][col]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Math.max(values[i-1][j], values[i-1][j- weight]+ value )</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>row.add(j-1,lcs);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -672,14 +732,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/ZigZagTraverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+        <state relative-caret-position="160">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#272#281#0" expanded="true" />
-            <element signature="e#369#378#0" expanded="true" />
-            <element signature="e#467#476#0" expanded="true" />
-            <element signature="e#565#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/ClosestInBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/BSTConstruction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="64" column="9" selection-start-line="40" selection-start-column="7" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/ValidateBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
