@@ -4,8 +4,8 @@ public class CaesarCipherEncryptor {
 
     public static void main(String[] args) {
 
-        String str = "xyz";
-        int key = 2;
+        String str = "abc";
+        int key = 52;
         System.out.println(caesarCypherEncryptor(str,key));
     }
 
@@ -14,9 +14,12 @@ public class CaesarCipherEncryptor {
         String result = "";
         String alphabets = "abcdefghijklmnopqrstuvwxyz";
 
+        int newKey = key % 26 ;
+
+
         for(int i = 0; i< str.length() ;i++){
 
-            result = result + getNewChar(str.charAt(i),key,alphabets);
+            result = result + getNewChar(str.charAt(i),newKey,alphabets);
 
         }
         return result;
@@ -24,9 +27,9 @@ public class CaesarCipherEncryptor {
 
     private static char getNewChar(char char1, int key, String alphabets) {
 
-        int newkey = alphabets.indexOf(char1) + key;// a=0, z = 25
+        int index = alphabets.indexOf(char1) + key;// a=0, z = 25
 
-        return  newkey <= 25 ? alphabets.charAt(newkey) : alphabets.charAt( (newkey % 25) - 1) ;
+        return  index <= 25 ? alphabets.charAt(index) : alphabets.charAt( (index % 25) - 1) ;
 
 
 
