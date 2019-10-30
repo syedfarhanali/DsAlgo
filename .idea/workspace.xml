@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="566a7296-8537-4371-8aad-dc2325ddcdc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/bst/BSTTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/strings/CaesarCipherEncryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/strings/PalindromeCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,7 +17,39 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/strings/PalindromeCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="19" selection-start-line="12" selection-start-column="8" selection-end-line="22" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/strings/CaesarCipherEncryptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="1692" column="48" selection-start-line="1692" selection-start-column="48" selection-end-line="1692" selection-end-column="48" />
+              <folding>
+                <element signature="e#66457#66458#0" expanded="true" />
+                <element signature="e#66495#66496#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,6 +98,9 @@
         <option value="$PROJECT_DIR$/src/algoexpert/bst/BSTConstruction.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/bst/ValidateBST.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/bst/BSTTraversal.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/arrays/PalindromeCheck.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/strings/PalindromeCheck.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/strings/CaesarCipherEncryptor.java" />
       </list>
     </option>
   </component>
@@ -92,7 +128,7 @@
             <path>
               <item name="DsAlgo" type="58d84e3e:PackageViewProjectNode" />
               <item name="DsAlgo" type="616d4139:PackageViewModuleNode" />
-              <item name="algoexpert.bst" type="1f31426a:PackageElementNode" />
+              <item name="algoexpert.strings" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -139,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidateBST">
+  <component name="RunManager" selected="Application.CaesarCipherEncryptor">
     <configuration name="BSTConstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algoexpert.bst.BSTConstruction" />
       <module name="DsAlgo" />
@@ -153,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClosestInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.bst.ClosestInBST" />
+    <configuration name="CaesarCipherEncryptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.strings.CaesarCipherEncryptor" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.bst.*" />
+          <option name="PATTERN" value="algoexpert.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumRewards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.MinimumRewards" />
+    <configuration name="ClosestInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.bst.ClosestInBST" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.arrays.*" />
+          <option name="PATTERN" value="algoexpert.bst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,19 +242,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinimumRewards" />
       <item itemvalue="Application.ZigZagTraverse" />
       <item itemvalue="Application.ClosestInBST" />
       <item itemvalue="Application.BSTConstruction" />
       <item itemvalue="Application.ValidateBST" />
+      <item itemvalue="Application.CaesarCipherEncryptor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CaesarCipherEncryptor" />
         <item itemvalue="Application.ValidateBST" />
         <item itemvalue="Application.BSTConstruction" />
         <item itemvalue="Application.ClosestInBST" />
         <item itemvalue="Application.ZigZagTraverse" />
-        <item itemvalue="Application.MinimumRewards" />
       </list>
     </recent_temporary>
   </component>
@@ -237,8 +273,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.20243205" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.20243205" />
       <window_info id="Structure" order="1" sideWeight="0.5011876" side_tool="true" weight="0.20243205" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,8 +284,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2857143" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.22040816" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2857143" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.2897959" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -740,6 +777,31 @@
             <element signature="e#582#583#0" expanded="true" />
             <element signature="e#624#625#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/strings/PalindromeCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" selection-start-line="12" selection-start-column="8" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="1692" column="48" selection-start-line="1692" selection-start-column="48" selection-end-line="1692" selection-end-column="48" />
+          <folding>
+            <element signature="e#66457#66458#0" expanded="true" />
+            <element signature="e#66495#66496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/strings/CaesarCipherEncryptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
