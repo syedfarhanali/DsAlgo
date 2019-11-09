@@ -30,6 +30,10 @@ public class Utils {
         System.out.println(a);
     }
 
+    public static void print(String a) {
+        System.out.println(a);
+    }
+
 
     public static void print(ArrayList<Character> longestCommonSubsequence) {
         String string =  longestCommonSubsequence.stream().map(String::valueOf).collect(Collectors.joining());
