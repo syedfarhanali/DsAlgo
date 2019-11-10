@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="566a7296-8537-4371-8aad-dc2325ddcdc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/strings/PatternMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/binaryTree/IterativeInOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DsAlgo/util/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsAlgo/util/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algoexpert/strings/UnderscorifySubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algoexpert/strings/UnderscorifySubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Utils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,13 +90,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algoexpert/strings/PatternMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+            <state relative-caret-position="284">
+              <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/binaryTree/IterativeInOrderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+              <folding>
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,6 +153,7 @@
       <find>print</find>
       <find>ValidateBST.</find>
       <find>math</find>
+      <find>pattern</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,6 +195,8 @@
         <option value="$PROJECT_DIR$/src/algoexpert/strings/UnderscorifySubstring.java" />
         <option value="$PROJECT_DIR$/src/util/Utils.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/strings/PatternMatcher.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/bst/IterativeInOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/binaryTree/IterativeInOrderTraversal.java" />
       </list>
     </option>
   </component>
@@ -211,7 +224,12 @@
             <path>
               <item name="DsAlgo" type="58d84e3e:PackageViewProjectNode" />
               <item name="DsAlgo" type="616d4139:PackageViewModuleNode" />
-              <item name="algoexpert.strings" type="1f31426a:PackageElementNode" />
+              <item name="algoexpert.binaryTree" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="DsAlgo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DsAlgo" type="616d4139:PackageViewModuleNode" />
+              <item name="algoexpert.bst" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -258,13 +276,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PatternMatcher">
-    <configuration name="CaesarCipherEncryptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.strings.CaesarCipherEncryptor" />
+  <component name="RunManager" selected="Application.IterativeInOrderTraversal">
+    <configuration name="IterativeInOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.binaryTree.IterativeInOrderTraversal" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.strings.*" />
+          <option name="PATTERN" value="algoexpert.binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,19 +343,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CaesarCipherEncryptor" />
       <item itemvalue="Application.LongestPalindromeInString" />
       <item itemvalue="Application.LongestSubstringWIthoutDuplication" />
       <item itemvalue="Application.UnderscorifySubstring" />
       <item itemvalue="Application.PatternMatcher" />
+      <item itemvalue="Application.IterativeInOrderTraversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IterativeInOrderTraversal" />
         <item itemvalue="Application.PatternMatcher" />
         <item itemvalue="Application.UnderscorifySubstring" />
         <item itemvalue="Application.LongestSubstringWIthoutDuplication" />
         <item itemvalue="Application.LongestPalindromeInString" />
-        <item itemvalue="Application.CaesarCipherEncryptor" />
       </list>
     </recent_temporary>
   </component>
@@ -367,8 +385,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010267" side_tool="true" weight="0.20243205" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37687075" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.36870748" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37687075" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.2557823" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -950,10 +968,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algoexpert/strings/PatternMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        <state relative-caret-position="284">
+          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/binaryTree/IterativeInOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
           </folding>
         </state>
       </provider>
