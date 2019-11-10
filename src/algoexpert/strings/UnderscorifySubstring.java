@@ -10,7 +10,7 @@ public class UnderscorifySubstring {
 
     public static void main(String[] args) {
 
-        String str = "abcd test test asad testtest tetasds test";
+        String str = "testthis is a testtest to see if testestes it works";
         String subString = "test";
         System.out.println(underscorifySubstring(str,subString));
     }

@@ -21,10 +21,12 @@ public class Utils {
         System.out.println(java.util.Arrays.toString(arrayInt));
     }
     public static void print(int arrayInt[]) {
-
         System.out.println(java.util.Arrays.toString(arrayInt));
-
     }
+    public static void print(String array[]) {
+        System.out.println(java.util.Arrays.toString(array));
+    }
+
 
     public static void print(Integer a) {
         System.out.println(a);
