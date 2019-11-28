@@ -51,4 +51,5 @@ public class Utils {
     public static void print(List<Integer> localMins) {
         localMins.stream().forEach(System.out::println);
     }
+
 }
