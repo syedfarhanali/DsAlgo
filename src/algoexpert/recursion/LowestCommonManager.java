@@ -28,7 +28,7 @@ public class LowestCommonManager {
 
     public static OrgChart getLowestCommonManager(
             OrgChart topManager, OrgChart reportOne, OrgChart reportTwo) {
-
+        return null;
     }
 
     public static List<Object> getLowestCommonManagerHelper(OrgChart orgChart, OrgChart reportOne, OrgChart reportTwo){
@@ -52,8 +52,9 @@ public class LowestCommonManager {
         if(count == 2){
             Map result =  new HashMap<>();
             result.put(2,orgChart);
-            return result;
+
         }
+        return null;
     }
 
     static class OrgChart {
