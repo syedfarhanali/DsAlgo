@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="566a7296-8537-4371-8aad-dc2325ddcdc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/search/SearchForRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/search/SearchInSortedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/search/ShiftedBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/AppartmentHunting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/MoveElementToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/bst/SameBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/search/QuickSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/sort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,19 +28,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algoexpert/sort/BubbleSort.java">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="-313">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/SameBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/MoveElementToEnd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algoexpert/sort/InsertionSort.java">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/AppartmentHunting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="286">
+              <caret line="140" column="52" lean-forward="true" selection-start-line="140" selection-start-column="52" selection-end-line="140" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-144">
+              <caret line="543" column="6" selection-start-line="543" selection-start-column="6" selection-end-line="543" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/SingleCycleCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="656" column="18" selection-start-line="656" selection-start-column="18" selection-end-line="656" selection-end-column="18" />
+              <folding>
+                <element signature="e#6283#6284#0" expanded="true" />
+                <element signature="e#6351#6352#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,14 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algoexpert/bst/BSTConstruction.java" />
-        <option value="$PROJECT_DIR$/src/algoexpert/bst/ValidateBST.java" />
-        <option value="$PROJECT_DIR$/src/algoexpert/bst/BSTTraversal.java" />
-        <option value="$PROJECT_DIR$/src/algoexpert/arrays/PalindromeCheck.java" />
-        <option value="$PROJECT_DIR$/src/algoexpert/strings/PalindromeCheck.java" />
-        <option value="$PROJECT_DIR$/src/algoexpert/strings/CaesarCipherEncryptor.java" />
-        <option value="$PROJECT_DIR$/src/algoexpert/strings/LongestPalindromeInString.java" />
-        <option value="$PROJECT_DIR$/src/algoexpert/strings/LongestSubstringWIthoutDuplication.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/strings/UnderscorifySubstring.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/strings/PatternMatcher.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/bst/IterativeInOrderTraversal.java" />
@@ -127,13 +183,21 @@
         <option value="$PROJECT_DIR$/src/algoexpert/search/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/algoexpert/sort/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/sort/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/search/QuickSelect.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/sort/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/bst/SameBST.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/arrays/MoveElementToEnd.java" />
+        <option value="$PROJECT_DIR$/src/algoexpert/arrays/AppartmentHunting.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="827" />
+    <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,6 +208,27 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DsAlgo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DsAlgo" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="DsAlgo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DsAlgo" type="616d4139:PackageViewModuleNode" />
+              <item name="algoexpert.graphs" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="DsAlgo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DsAlgo" type="616d4139:PackageViewModuleNode" />
+              <item name="algoexpert.trie" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,58 +250,7 @@
               <item name="DsAlgo" type="b2602c69:ProjectViewProjectNode" />
               <item name="DsAlgo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DsAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DsAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DsAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DsAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DsAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DsAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DsAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DsAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="strings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DsAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DsAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DsAlgo" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DsAlgo" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="DsAlgo" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DsAlgo" type="616d4139:PackageViewModuleNode" />
-              <item name="algoexpert.graphs" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="DsAlgo" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DsAlgo" type="616d4139:PackageViewModuleNode" />
-              <item name="algoexpert.trie" type="1f31426a:PackageElementNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,9 +281,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.sort.BubbleSort" />
+  <component name="RunManager" selected="Application.AppartmentHunting">
+    <configuration name="AppartmentHunting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.AppartmentHunting" />
+      <module name="DsAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoexpert.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.sort.HeapSort" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
@@ -261,8 +308,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.sort.InsertionSort" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.sort.MergeSort" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
@@ -274,12 +321,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchForRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.search.SearchForRange" />
+    <configuration name="MoveElementToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.MoveElementToEnd" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.search.*" />
+          <option name="PATTERN" value="algoexpert.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,25 +334,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.search.SearchInSortedMatrix" />
+    <configuration name="SameBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.bst.SameBST" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShiftedBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.search.ShiftedBinarySearch" />
-      <module name="DsAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algoexpert.search.*" />
+          <option name="PATTERN" value="algoexpert.bst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SearchInSortedMatrix" />
-      <item itemvalue="Application.ShiftedBinarySearch" />
-      <item itemvalue="Application.SearchForRange" />
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.SameBST" />
+      <item itemvalue="Application.MoveElementToEnd" />
+      <item itemvalue="Application.AppartmentHunting" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.SearchForRange" />
-        <item itemvalue="Application.ShiftedBinarySearch" />
-        <item itemvalue="Application.SearchInSortedMatrix" />
+        <item itemvalue="Application.AppartmentHunting" />
+        <item itemvalue="Application.MoveElementToEnd" />
+        <item itemvalue="Application.SameBST" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -356,10 +390,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.2081545" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967462" weight="0.21101573" />
       <window_info id="Structure" order="1" sideWeight="0.5032538" side_tool="true" weight="0.2081545" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,8 +402,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010267" side_tool="true" weight="0.20243205" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292517" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.33061224" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.3900415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.3292517" />
@@ -386,6 +420,34 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.21101573" />
+      <window_info id="Structure" order="1" sideWeight="0.5032538" side_tool="true" weight="0.2081545" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5010267" side_tool="true" weight="0.20243205" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" visible="true" weight="0.3900415" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.3292517" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292517" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50214595" side_tool="true" weight="0.3197279" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4985694" weight="0.3292517" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -756,145 +818,95 @@
           <properties />
           <option name="timeStamp" value="175" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/sort/HeapSort.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/sort/HeapSort.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/sort/HeapSort.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/bst/SameBST.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/arrays/AppartmentHunting.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>comparisonFunction.apply(heap.get(parentIdx),heap.get(currentIdx))</expression-string>
+        <expression-string>blocks.get(4)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>node.children.containsKey(Trie.endCharacter)</expression-string>
+        <expression-string>((ArrayList) blocks).size-1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>node.children.get(currentChar)</expression-string>
+        <expression-string>blocks.get(5)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>node.children</expression-string>
+        <expression-string>blocks.get(3)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>neighbours</expression-string>
+        <expression-string>blocks.get(2)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>!Boolean.TRUE.equals(visited.get(row + &quot;-&quot; + (col-1)))</expression-string>
+        <expression-string>blocks.get(1)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>row &gt;= 0 &amp;&amp; row&lt;matrix.length &amp;&amp; col&gt;= 0 &amp;&amp; col&lt; matrix[0].length &amp;&amp; matrix[row][col]== 1</expression-string>
+        <expression-string>blocks.get(0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>row&gt;0 &amp;&amp; row&lt;matrix.length &amp;&amp; col&gt;0 &amp;&amp; col&lt; matrix[0].length</expression-string>
+        <expression-string>((ArrayList) blocks).size</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>row&gt;0 &amp;&amp; row&lt;matrix.length &amp;&amp; col&gt;0 &amp;&amp; col&lt; matrix[0].length &amp;&amp; matrix[row][col]== 1</expression-string>
+        <expression-string>block.get(key)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/SubarraySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/MinimumRewards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/ClosestInBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/BSTConstruction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="64" column="9" selection-start-line="40" selection-start-column="7" selection-end-line="64" selection-end-column="9" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/ValidateBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/BSTTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="54" selection-end-column="21" />
-          <folding>
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoexpert/strings/CaesarCipherEncryptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algoexpert/strings/LongestPalindromeInString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -985,13 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algoexpert/graphs/BFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1008,13 +1013,6 @@
             <element signature="e#469#478#0" expanded="true" />
             <element signature="e#531#548#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/SingleCycleCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1096,17 +1094,6 @@
           <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9270">
-          <caret line="656" column="18" selection-start-line="656" selection-start-column="18" selection-end-line="656" selection-end-column="18" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1222,13 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoexpert/search/ShiftedBinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algoexpert/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1243,24 +1223,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algoexpert/search/SearchForRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algoexpert/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="356">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algoexpert/sort/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="15">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/sort/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/search/SearchForRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/search/ShiftedBinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/search/QuickSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52740">
+          <caret line="3587" column="24" selection-start-line="3587" selection-start-column="24" selection-end-line="3587" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/sort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="656" column="18" selection-start-line="656" selection-start-column="18" selection-end-line="656" selection-end-column="18" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/bst/SameBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/SingleCycleCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/MoveElementToEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="543" column="6" selection-start-line="543" selection-start-column="6" selection-end-line="543" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algoexpert/arrays/AppartmentHunting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="140" column="52" lean-forward="true" selection-start-line="140" selection-start-column="52" selection-end-line="140" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
