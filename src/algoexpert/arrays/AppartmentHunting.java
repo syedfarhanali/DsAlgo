@@ -152,7 +152,6 @@ public class AppartmentHunting {
                 if(result[i] == null || (result[i+1] + 1 < result[i])){
                     result[i] = result[i+1] + 1;
                 }
-
             }
         }
 
