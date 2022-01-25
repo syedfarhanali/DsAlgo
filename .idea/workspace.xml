@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="566a7296-8537-4371-8aad-dc2325ddcdc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/CalendarMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/dynamicProgramming/MaxProfitWithKTransactions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/dynamicProgramming/NumbersInPi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/famous_algos/KnuthMorrisPratt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/famous_algos/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/SortedSquaredArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/arrays/SpiralTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/binaryTree/BranchSums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algoexpert/arrays/AppartmentHunting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algoexpert/arrays/AppartmentHunting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoexpert/bst/BSTTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algoexpert/bst/BSTTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoexpert/bst/SameBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algoexpert/bst/SameBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoexpert/bst/ValidateBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algoexpert/bst/ValidateBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,19 +24,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="DsAlgo" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/MaxProfitWithKTransactions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,11 +113,15 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="815" />
   </component>
+  <component name="ProjectId" id="22YVvMPD1lZ5EYZPF59rq9hy7p7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -188,33 +181,66 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="algoexpert.graphs" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.MaxProfitWithKTransactions">
-    <configuration name="CalendarMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.CalendarMatching" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="BranchSums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.binaryTree.BranchSums" />
+      <module name="DsAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoexpert.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.sort.QuickSort" />
+      <module name="DsAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoexpert.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SameBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.bst.SameBST" />
+      <module name="DsAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoexpert.bst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.arrays.SpiralTraverse" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
@@ -226,51 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnuthMorrisPratt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.famous_algos.KnuthMorrisPratt" />
+    <configuration name="ValidateBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoexpert.bst.ValidateBST" />
       <module name="DsAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.famous_algos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxProfitWithKTransactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.dynamicProgramming.MaxProfitWithKTransactions" />
-      <module name="DsAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algoexpert.dynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumbersInPi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.dynamicProgramming.NumbersInPi" />
-      <module name="DsAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algoexpert.dynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopologicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.famous_algos.TopologicalSort" />
-      <module name="DsAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algoexpert.famous_algos.*" />
+          <option name="PATTERN" value="algoexpert.bst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,22 +266,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CalendarMatching" />
-      <item itemvalue="Application.NumbersInPi" />
-      <item itemvalue="Application.TopologicalSort" />
-      <item itemvalue="Application.KnuthMorrisPratt" />
-      <item itemvalue="Application.MaxProfitWithKTransactions" />
+      <item itemvalue="Application.SpiralTraverse" />
+      <item itemvalue="Application.ValidateBST" />
+      <item itemvalue="Application.SameBST" />
+      <item itemvalue="Application.BranchSums" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxProfitWithKTransactions" />
-        <item itemvalue="Application.KnuthMorrisPratt" />
-        <item itemvalue="Application.TopologicalSort" />
-        <item itemvalue="Application.NumbersInPi" />
-        <item itemvalue="Application.CalendarMatching" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.BranchSums" />
+        <item itemvalue="Application.SameBST" />
+        <item itemvalue="Application.ValidateBST" />
+        <item itemvalue="Application.SpiralTraverse" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_MODE" value="false" />
   </component>
@@ -380,467 +368,437 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
           <line>57</line>
-          <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
           <line>60</line>
-          <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
           <line>43</line>
-          <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
           <line>50</line>
-          <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
           <line>53</line>
-          <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
           <line>46</line>
-          <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/LargestRange.java</url>
           <line>66</line>
-          <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/MinimumRewards.java</url>
           <line>45</line>
-          <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/ZigZagTraverse.java</url>
           <line>67</line>
-          <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/ZigZagTraverse.java</url>
           <line>53</line>
-          <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/ZigZagTraverse.java</url>
           <line>56</line>
-          <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/ZigZagTraverse.java</url>
           <line>65</line>
-          <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/ZigZagTraverse.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/bst/ClosestInBST.java</url>
           <line>48</line>
-          <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/bst/ClosestInBST.java</url>
           <line>50</line>
-          <properties />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/bst/ClosestInBST.java</url>
           <line>53</line>
-          <properties />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/bst/BSTConstruction.java</url>
           <line>27</line>
-          <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/bst/ValidateBST.java</url>
-          <line>21</line>
-          <properties />
+          <line>22</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/strings/LongestPalindromeInString.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/strings/LongestPalindromeInString.java</url>
           <line>24</line>
-          <properties />
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/strings/LongestPalindromeInString.java</url>
           <line>29</line>
-          <properties />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/strings/LongestSubstringWIthoutDuplication.java</url>
           <line>32</line>
-          <properties />
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/strings/UnderscorifySubstring.java</url>
           <line>70</line>
-          <properties />
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/strings/UnderscorifySubstring.java</url>
           <line>46</line>
-          <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/strings/UnderscorifySubstring.java</url>
           <line>47</line>
-          <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/strings/PatternMatcher.java</url>
           <line>55</line>
-          <properties />
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/binaryTree/InvertBinaryTree.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/famous_algos/KadanesAlgorithm.java</url>
           <line>22</line>
-          <properties />
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/graphs/BFS.java</url>
           <line>67</line>
-          <properties />
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/graphs/BFS.java</url>
           <line>63</line>
-          <properties />
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/graphs/RiverSizes.java</url>
           <line>29</line>
-          <properties />
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/graphs/RiverSizes.java</url>
           <line>40</line>
-          <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/trie/SuffixTrieConstruction.java</url>
           <line>10</line>
-          <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/graphs/BoggleBoard.java</url>
           <line>65</line>
-          <properties />
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/graphs/BoggleBoard.java</url>
           <line>74</line>
-          <properties />
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/graphs/RectangleMania.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/recursion/ProductSum.java</url>
           <line>41</line>
-          <properties />
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/recursion/Powerset.java</url>
           <line>33</line>
-          <properties />
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/recursion/Powerset.java</url>
           <line>28</line>
-          <properties />
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/recursion/Powerset.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/recursion/Powerset.java</url>
           <line>24</line>
-          <properties />
           <option name="timeStamp" value="142" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/recursion/Powerset.java</url>
           <line>26</line>
-          <properties />
           <option name="timeStamp" value="143" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/recursion/Powerset.java</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="144" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/recursion/Powerset.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/heap/MinHeapConstruction.java</url>
           <line>36</line>
-          <properties />
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/heap/MinHeapConstruction.java</url>
           <line>44</line>
-          <properties />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/heap/MinHeapConstruction.java</url>
           <line>57</line>
-          <properties />
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/heap/ContinuousMedian.java</url>
           <line>55</line>
-          <properties />
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/heap/ContinuousMedian.java</url>
           <line>143</line>
-          <properties />
           <option name="timeStamp" value="157" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/heap/ContinuousMedian.java</url>
           <line>147</line>
-          <properties />
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/heap/ContinuousMedian.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/linkedlist/DoublyLinkedList.java</url>
           <line>27</line>
-          <properties />
           <option name="timeStamp" value="165" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/linkedlist/DoublyLinkedList.java</url>
           <line>17</line>
-          <properties />
           <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/linkedlist/RemoveKthNodeFromEnd.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/linkedlist/RemoveKthNodeFromEnd.java</url>
           <line>18</line>
-          <properties />
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/linkedlist/FindLoop.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/linkedlist/FindLoop.java</url>
           <line>28</line>
-          <properties />
           <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/linkedlist/FindLoop.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/linkedlist/FindLoop.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="173" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/linkedlist/ReverseLinkedList.java</url>
           <line>32</line>
-          <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/linkedlist/MergeLinkedLists.java</url>
           <line>22</line>
-          <properties />
           <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java</url>
           <line>47</line>
-          <properties />
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/sort/HeapSort.java</url>
           <line>18</line>
-          <properties />
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/sort/HeapSort.java</url>
           <line>28</line>
-          <properties />
           <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/sort/HeapSort.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/bst/SameBST.java</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/AppartmentHunting.java</url>
           <line>123</line>
-          <properties />
           <option name="timeStamp" value="205" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/arrays/CalendarMatching.java</url>
           <line>36</line>
-          <properties />
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/famous_algos/TopologicalSort.java</url>
           <line>61</line>
-          <properties />
           <option name="timeStamp" value="217" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/famous_algos/TopologicalSort.java</url>
           <line>54</line>
-          <properties />
           <option name="timeStamp" value="219" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/famous_algos/TopologicalSort.java</url>
           <line>41</line>
-          <properties />
           <option name="timeStamp" value="221" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/famous_algos/TopologicalSort.java</url>
           <line>57</line>
-          <properties />
           <option name="timeStamp" value="222" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/famous_algos/TopologicalSort.java</url>
           <line>29</line>
-          <properties />
           <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/famous_algos/TopologicalSort.java</url>
           <line>50</line>
-          <properties />
           <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/famous_algos/KnuthMorrisPratt.java</url>
           <line>41</line>
-          <properties />
           <option name="timeStamp" value="226" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algoexpert/dynamicProgramming/MaxProfitWithKTransactions.java</url>
           <line>34</line>
-          <properties />
           <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoexpert/sort/QuickSort.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="242" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DsAlgo$AppartmentHunting.ic" NAME="AppartmentHunting Coverage Results" MODIFIED="1640015507611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>algoexpert.arrays.*</FILTER>
+    </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">

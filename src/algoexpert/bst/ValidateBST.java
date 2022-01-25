@@ -15,6 +15,7 @@ public class ValidateBST {
         BST bst9 = new BST(10,bst7,bst8);
 
         System.out.println(validateBst(bst9));
+        System.out.println(validateBst1(bst9));
     }
 
     public static boolean validateBst(BST tree) {
@@ -34,7 +35,25 @@ public class ValidateBST {
 
         return validateBstHelper(tree.left,minLimit,tree.value) &&
                 validateBstHelper(tree.right,tree.value,maxLimit);
+    }
 
+
+    public static boolean validateBst1(BST tree) {
+
+        return validateNode(tree, Integer.MIN_VALUE, Integer.MAX_VALUE);
+
+    }
+
+    public static boolean validateNode(BST node, int minLimit, int maxLimit){
+        //System.out.println(minLimit + ":" +maxLimit);
+        if(node == null){
+            return true;
+        }else if( node.value < minLimit || node.value >= maxLimit){
+            return false;
+        }
+
+        return validateNode(node.left, minLimit, node.value)
+                && validateNode(node.right, node.value, maxLimit );
     }
 
 

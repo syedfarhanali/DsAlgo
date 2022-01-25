@@ -12,7 +12,7 @@ public class QuickSort {
     public static int[] quickSort(int[] array) {
 
 
-        return  quickSort(array,0,array.length);
+        return  quickSort1(array,0,array.length);
 
     }
 
@@ -53,5 +53,41 @@ public class QuickSort {
         quickSort(array,right+1,array.length);
 
         return array;
+    }
+
+
+    public static int[] quickSort1(int[] array, int start, int end){
+
+        if(start >= end-1) {
+            return array;
+        }
+        System.out.println(start+"**"+end);
+        int pivot = start;
+        int left = start + 1;
+        int right = end - 1;
+
+        while(left <= right && (right>start && left<end)){
+            if(array[pivot] < array[left] && array[pivot] > array[right] ){
+                int temp = array[left];
+                array[left] = array[right];
+                array[right] = temp;
+            }
+            if(array[left] < array[pivot]){
+                left++;
+            }
+            if(array[right] >= array[pivot]){
+                right--;
+            }
+        }
+
+        int temp = array[right];
+        array[right] = array[pivot];
+        array[pivot] = temp;
+
+        quickSort1(array,start, right);
+        quickSort1(array,right+1, array.length);
+
+        return array;
+
     }
 }

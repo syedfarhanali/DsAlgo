@@ -24,6 +24,22 @@ public class BSTTraversal {
 
     }
 
+    public static ArrayList<Integer> inOrderTraverseNew(BST tree, ArrayList<Integer> array) {
+
+        if(tree == null){
+            return array;
+        }
+        inOrderTraverseNew(tree.left,array);
+        array.add(tree.value);
+        inOrderTraverseNew(tree.right,array);
+
+        return array;
+    }
+
+
+
+
+
 
     public static ArrayList<Integer> inOrderTraverse(BST tree, ArrayList<Integer> array) {
        if(tree != null){
